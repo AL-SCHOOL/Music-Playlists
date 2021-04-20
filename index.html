@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1>Music Playlists</h1> 
+<h1 id="title"></h1> 
 
 <button onclick="home()">Home</button>
 <button onclick="band()">Band Playlist</button>
@@ -30,6 +30,7 @@
 </div> 
  
 <script>
+  document.getElementById("title").innerHTML = "Home";
   document.getElementById("homepage").style.display = "block";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "none";
