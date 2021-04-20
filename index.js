@@ -1,9 +1,7 @@
-function hideAll() {
-  document.getElementById("bandPlaylist").style.display = "none";
-  document.getElementById("pokemonPlaylist").style.display = "none";
-  document.getElementById("marioLuigiPlaylist").style.display = "none";
-  document.getElementById("fridayNightPlaylist").style.display = "none";
-}
+document.getElementById("bandPlaylist").style.display = "none";
+document.getElementById("pokemonPlaylist").style.display = "none";
+document.getElementById("marioLuigiPlaylist").style.display = "none";
+document.getElementById("fridayNightPlaylist").style.display = "none";
 
 function band() {
   document.getElementById("bandPlaylist").style.display = "block";
@@ -32,5 +30,3 @@ function fridayNight() {
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "block";
 }
-
-hideAll();
