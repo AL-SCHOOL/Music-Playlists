@@ -1,4 +1,5 @@
 function band() {
+  document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "block";
   document.getElementById("pokemonPlaylist").style.display = "none";
   document.getElementById("marioLuigiPlaylist").style.display = "none";
@@ -7,6 +8,7 @@ function band() {
 }
 
 function pokemon() {
+  document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "block";
   document.getElementById("marioLuigiPlaylist").style.display = "none";
@@ -15,6 +17,7 @@ function pokemon() {
 }
 
 function marioLuigi() {
+  document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "none";
   document.getElementById("marioLuigiPlaylist").style.display = "block";
@@ -23,6 +26,7 @@ function marioLuigi() {
 }
 
 function fridayNight() {
+  document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "none";
   document.getElementById("marioLuigiPlaylist").style.display = "none";
@@ -31,6 +35,7 @@ function fridayNight() {
 }
 
 function personal() {
+  document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "none";
   document.getElementById("marioLuigiPlaylist").style.display = "none";
