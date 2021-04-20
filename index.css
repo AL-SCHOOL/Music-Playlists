@@ -1,8 +1,8 @@
 body {text-align: center;}
 
 /* Playlists */
-bandPlaylist {margin-left: 320px;}
-pokemonPlaylist {margin-left: 320px;}
-marioLuigiPlaylist {margin-left: 320px;}
-fridayNightPlaylist {margin-left: 320px;}
-personalPlaylist {margin-left: 320px;}
+#bandPlaylist {margin-left: 320px;}
+#pokemonPlaylist {margin-left: 320px;}
+#marioLuigiPlaylist {margin-left: 320px;}
+#fridayNightPlaylist {margin-left: 320px;}
+#personalPlaylist {margin-left: 320px;}
