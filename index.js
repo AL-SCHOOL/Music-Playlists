@@ -17,7 +17,7 @@ function band() {
 }
 
 function pokemon() {
-  document.getElementById("homepage").style.display = "block";
+  document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "block";
   document.getElementById("marioLuigiPlaylist").style.display = "none";
