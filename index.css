@@ -1,4 +1,15 @@
-body {text-align: center;}
+body {
+  text-align: center; 
+  background-color: #3399ff;
+}
+
+#navButton {
+  margin-left: 5px; 
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 5px;
+  border-radius: 5px;
+}
 
 /* Playlists */
 #bandPlaylist {margin-left: 320px;}
