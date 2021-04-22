@@ -16,6 +16,11 @@ hr {
   border-radius: 5px;
 }
 
+/* Text */
+p {font-family: 'Nunito', sans-serif;}
+h1 {font-family: 'Nunito', sans-serif;}
+h2 {font-family: 'Nunito', sans-serif;}
+
 /* Playlists */
 #bandPlaylist {margin-left: 320px;}
 #pokemonPlaylist {margin-left: 320px;}
