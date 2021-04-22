@@ -16,6 +16,10 @@ hr {
   border-radius: 5px;
 }
 
+#navButton:hover {
+  filter: brightness(50%);
+}
+
 /* Text */
 p {font-family: 'Nunito', sans-serif;}
 h1 {font-family: 'Nunito', sans-serif;}
