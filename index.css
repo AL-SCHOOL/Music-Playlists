@@ -1,13 +1,13 @@
 body {
   text-align: center; 
-  background-color: #3399ff;
+  background-color: #99ddff;
 }
 
 #navButton {
   margin-left: 5px; 
   border-style: solid;
   border-color: #ffffff;
-  border-width: 5px;
+  border-width: 2px;
   border-radius: 5px;
 }
 
