@@ -58,10 +58,13 @@ function personal() {
   document.getElementById("personalPlaylist").style.display = "block";
 }
 
-var H = 72;
-const keydownHandler = event => {
-  "use strict"
-  if (event.keyCode == H) {
-    document.getElementById("navButton").style.display = "none";
+function hKeyPress {
+  var H = 72;
+  var KeyH = false;
+  const keydownHandler = event => {
+    "use strict"
+    if (event.keyCode == H) {
+      document.getElementById("navButton").style.display = "none";
+    }
   }
 }
