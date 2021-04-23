@@ -7,40 +7,44 @@
 </head>
 <body>
 
-<h1>Music Playlists</h1> 
+<header>
+  <h1>Music Playlists</h1> 
 
-<img src="Photos/IMG_0088.PNG" style="width:100px;height:100px" id="navButton" onclick="home()">
-<img src="Photos/IMG_0083.PNG" style="width:100px;height:100px" id="navButton" onclick="band()">
-<img src="Photos/IMG_0080.PNG" style="width:100px;height:100px" id="navButton" onclick="pokemon()">
-<img src="Photos/IMG_0077.PNG" style="width:100px;height:100px" id="navButton" onclick="marioLuigi()">
-<img src="Photos/IMG_0081.PNG" style="width:100px;height:100px" id="navButton" onclick="fridayNight()">
-<img src="Photos/IMG_0087.PNG" style="width:100px;height:100px" id="navButton" onclick="personal()">
+  <img src="Photos/IMG_0088.PNG" style="width:100px;height:100px" id="navButton" onclick="home()">
+  <img src="Photos/IMG_0083.PNG" style="width:100px;height:100px" id="navButton" onclick="band()">
+  <img src="Photos/IMG_0080.PNG" style="width:100px;height:100px" id="navButton" onclick="pokemon()">
+  <img src="Photos/IMG_0077.PNG" style="width:100px;height:100px" id="navButton" onclick="marioLuigi()">
+  <img src="Photos/IMG_0081.PNG" style="width:100px;height:100px" id="navButton" onclick="fridayNight()">
+  <img src="Photos/IMG_0087.PNG" style="width:100px;height:100px" id="navButton" onclick="personal()">
   
-<script src="index.js"></script>
+  <script src="index.js"></script>
   
-<hr>
+  <hr>
+</header>
 
-<h2 id="title"></h2>
+<aside>
+  <h2 id="title"></h2>
 
-<!-- Band Playlist --><iframe id="bandPlaylist" width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLop0IHXT_frx6mUrC7CbQUxPS42h0CJJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<!-- Pokémon Playlist --><iframe id="pokemonPlaylist" width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLop0IHXT_frzTWU-goM7y5Xqv-fnXlgyL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<!-- Mario & Luigi PLaylist --><iframe id="marioLuigiPlaylist" width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLop0IHXT_frya2VFH6SmWHz_Xbup8oMlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<!-- Friday Night Funkin' Playlist --><iframe id="fridayNightPlaylist" width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLtzjJXsBFCs6t2Ow3631vYR-3UF5OktTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<!-- Personal Playlist --><iframe id="personalPlaylist" src="https://open.spotify.com/embed/playlist/1dhM50nQCRspN112Sz5ZSX" width="640" height="360" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  <!-- Band Playlist --><iframe id="bandPlaylist" width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLop0IHXT_frx6mUrC7CbQUxPS42h0CJJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <!-- Pokémon Playlist --><iframe id="pokemonPlaylist" width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLop0IHXT_frzTWU-goM7y5Xqv-fnXlgyL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <!-- Mario & Luigi PLaylist --><iframe id="marioLuigiPlaylist" width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLop0IHXT_frya2VFH6SmWHz_Xbup8oMlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <!-- Friday Night Funkin' Playlist --><iframe id="fridayNightPlaylist" width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLtzjJXsBFCs6t2Ow3631vYR-3UF5OktTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <!-- Personal Playlist --><iframe id="personalPlaylist" src="https://open.spotify.com/embed/playlist/1dhM50nQCRspN112Sz5ZSX" width="640" height="360" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-<div id="homepage">
-  <p>This website is a homepage for all of the music that I listen to throughout the day.</p>
-</div> 
+  <div id="homepage">
+    <p>This website is a homepage for all of the music that I listen to throughout the day.</p>
+  </div> 
  
-<script>
-  document.getElementById("title").innerHTML = "Home";
-  document.getElementById("homepage").style.display = "block";
-  document.getElementById("bandPlaylist").style.display = "none";
-  document.getElementById("pokemonPlaylist").style.display = "none";
-  document.getElementById("marioLuigiPlaylist").style.display = "none";
-  document.getElementById("fridayNightPlaylist").style.display = "none";
-  document.getElementById("personalPlaylist").style.display = "none";
-</script>  
+  <script>
+    document.getElementById("title").innerHTML = "Home";
+    document.getElementById("homepage").style.display = "block";
+    document.getElementById("bandPlaylist").style.display = "none";
+    document.getElementById("pokemonPlaylist").style.display = "none";
+    document.getElementById("marioLuigiPlaylist").style.display = "none";
+    document.getElementById("fridayNightPlaylist").style.display = "none";
+    document.getElementById("personalPlaylist").style.display = "none";
+  </script>  
+</aside>
   
 </body>
 </html>
