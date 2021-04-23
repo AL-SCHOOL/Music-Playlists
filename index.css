@@ -15,32 +15,12 @@ aside {
   height: 490px;
 }
 
-iframe {
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 2px;
-  border-radius: 5px;
-}
+/* Videos */
+iframe {border-style: solid; border-color: #ffffff; border-width: 2px; border-radius: 5px;}
 
-#navButton {
-  margin-left: 5px; 
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 2px;
-  border-radius: 5px;
-  background-color: #ffffff;
-}
-
-#navButton:hover {
-  filter: brightness(50%);
-  cursor: pointer;
-}
-
-line {
-  background-color: #ffffff;
-  height: 1px;
-  padding: 0px;
-}
+/* Buttons */
+#navButton {margin-left: 5px; border-style: solid; border-color: #ffffff; border-width: 2px; border-radius: 5px; background-color: #ffffff;}
+#navButton:hover {filter: brightness(50%); cursor: pointer;}
 
 /* Text */
 p {font-family: 'Nunito', sans-serif; color: #ffffff;}
