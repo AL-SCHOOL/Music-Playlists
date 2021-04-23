@@ -6,7 +6,7 @@ function home() {
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "none";
-  document.getElementById("fillBlank").innerHTML = "<br><br><br><br><br><br><br><br><br><br><br><br>";
+  document.getElementById("fillBlank").innerHTML = "<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>";
 }
 
 function band() {
