@@ -36,6 +36,12 @@ iframe {
   cursor: pointer;
 }
 
+line {
+  background-color: #ffffff;
+  height: 1px;
+  padding: 0px;
+}
+
 /* Text */
 p {font-family: 'Nunito', sans-serif; color: #ffffff;}
 h1 {font-family: 'Nunito', sans-serif; color: #ffffff;}
