@@ -1,6 +1,15 @@
-body {
-  text-align: center; 
+body { 
+  background-color: #000000;
+}
+
+header {
   background-color: #333333;
+  text-align: center;
+}
+
+aside {
+  background-color: #666666;
+  text-align: center;
 }
 
 hr {
