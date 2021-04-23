@@ -66,6 +66,7 @@ function hKeyPress() {
       document.getElementById("navButton").style.display = "none";
     }
   }
+  hKeyPress();
 }
 
 hKeyPress();
