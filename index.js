@@ -6,6 +6,7 @@ function home() {
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "none";
+  document.getElementById("fillBlank").innerHTML = "<br><br><br><br><br>";
 }
 
 function band() {
@@ -16,6 +17,7 @@ function band() {
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "none";
+  document.getElementById("fillBlank").innerHTML = "<br><br><br>";
 }
 
 function pokemon() {
@@ -26,6 +28,7 @@ function pokemon() {
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "none";
+  document.getElementById("fillBlank").innerHTML = "<br><br><br>";
 }
 
 function marioLuigi() {
@@ -36,6 +39,7 @@ function marioLuigi() {
   document.getElementById("marioLuigiPlaylist").style.display = "block";
   document.getElementById("fridayNightPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "none";
+  document.getElementById("fillBlank").innerHTML = "<br><br><br>";
 }
 
 function fridayNight() {
@@ -46,6 +50,7 @@ function fridayNight() {
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "block";
   document.getElementById("personalPlaylist").style.display = "none";
+  document.getElementById("fillBlank").innerHTML = "<br><br><br>";
 }
 
 function personal() {
@@ -56,4 +61,5 @@ function personal() {
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "block";
+  document.getElementById("fillBlank").innerHTML = "<br><br><br>";
 }
