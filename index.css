@@ -5,11 +5,13 @@ body {
 header {
   background-color: #333333;
   text-align: center;
+  padding: 5px;
 }
 
 aside {
   background-color: #666666;
   text-align: center;
+  padding: 30px;
 }
 
 hr {
