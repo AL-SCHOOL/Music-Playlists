@@ -5,7 +5,7 @@ aside {background-color: #666666; text-align: center; padding: 5px; height: 460p
 hr {border-style: solid; border-color: #ffffff; margin-bottom: -5px; margin-left: -5px; width: 1282px;}
 
 /* Media */
-iframe {border-style: solid; border-color: #ffffff; border-width: 2px; border-radius: 5px;}
+iframe {border-style: solid; border-color: #ffffff; border-width: 2px; border-radius: 5px; width: 640; height: 360px;}
 
 /* Buttons */
 #navButton {margin-left: 5px; border-style: solid; border-color: #ffffff; border-width: 2px; border-radius: 5px; background-color: #ffffff; width: 100px; height: 100px;}
