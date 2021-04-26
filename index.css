@@ -8,8 +8,9 @@ hr {border-style: solid; border-color: #ffffff; margin-bottom: -5px; margin-left
 iframe {border-style: solid; border-color: #ffffff; border-width: 2px; border-radius: 5px;}
 
 /* Buttons */
-#navButton {margin-left: 5px; border-style: solid; border-color: #ffffff; border-width: 2px; border-radius: 5px; background-color: #ffffff;}
+#navButton {margin-left: 5px; border-style: solid; border-color: #ffffff; border-width: 2px; border-radius: 5px; background-color: #ffffff; width: 100px; height: 100px;}
 #navButton:hover {filter: brightness(50%); cursor: pointer;}
+#homeButton {width: 500px; height: auto;}
 #homeButton:hover {cursor: pointer;}
 
 /* Text */
