@@ -2,7 +2,7 @@
 body {background-color: #000000;}
 header {background-color: #333333; text-align: center; padding: 5px;}
 aside {background-color: #666666; text-align: center; padding: 5px; height: 460px;}
-hr {border-style: solid; border-color: #ffffff; margin-bottom: -5px; width: 1280px; margin-left: -5px;}
+hr {border-style: solid; border-color: #ffffff; margin-bottom: -5px; width: 1280px; margin-left: -10px;}
 
 /* Media */
 iframe {border-style: solid; border-color: #ffffff; border-width: 2px; border-radius: 5px;}
