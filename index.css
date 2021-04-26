@@ -1,25 +1,26 @@
+
 /* Layout */
-body {background-color:#000000;}
-header {background-color:#333333; text-align:center; padding:5px;}
-aside {background-color:#666666; text-align:center; padding:5px; height:460px;}
-hr {border-style:solid; border-color:#ffffff; margin-bottom:-5px; margin-left:-5px; width:1282px;}
+body {background-color: #000000;}
+header {background-color: #333333; text-align: center; padding: 5px;}
+aside {background-color: #666666; text-align: center; padding: 5px; height: 460px;}
+hr {border-style: solid; border-color: #ffffff; margin-bottom: -5px; margin-left: -5px; width: 1282px;}
 
 /* Media */
-iframe {border-style:solid; border-color:#ffffff; border-width:2px; border-radius:5px; width:100px; height:100px;}
+iframe {border-style: solid; border-color: #ffffff; border-width: 2px; border-radius: 5px;}
 
 /* Buttons */
-#navButton {margin-left:5px; border-style:solid; border-color:#ffffff; border-width:2px; border-radius:5px; background-color:#ffffff;}
-#navButton:hover {filter:brightness(50%); cursor:pointer;}
-#homeButton:hover {cursor:pointer; width:500px; height:auto;}
+#navButton {margin-left: 5px; border-style: solid; border-color: #ffffff; border-width: 2px; border-radius: 5px; background-color: #ffffff;}
+#navButton:hover {filter: brightness(50%); cursor: pointer;}
+#homeButton:hover {cursor: pointer;}
 
 /* Text */
-p {font-family:'Nunito',sans-serif; color:#ffffff;}
-h1 {font-family:'Nunito',sans-serif; color:#ffffff;}
-h2 {font-family:'Nunito',sans-serif; color:#ffffff;}
+p {font-family: 'Nunito', sans-serif; color: #ffffff;}
+h1 {font-family: 'Nunito', sans-serif; color: #ffffff;}
+h2 {font-family: 'Nunito', sans-serif; color: #ffffff;}
 
 /* Playlists */
-#bandPlaylist {margin-left:320px;}
-#pokemonPlaylist {margin-left:320px;}
-#marioLuigiPlaylist {margin-left:320px;}
-#fridayNightPlaylist {margin-left:320px;}
-#personalPlaylist {margin-left:320px;}
+#bandPlaylist {margin-left: 320px;}
+#pokemonPlaylist {margin-left: 320px;}
+#marioLuigiPlaylist {margin-left: 320px;}
+#fridayNightPlaylist {margin-left: 320px;}
+#personalPlaylist {margin-left: 320px;}
