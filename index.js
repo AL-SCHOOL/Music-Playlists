@@ -6,6 +6,7 @@ function home() {
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "none";
+  document.getElementById("undertalePlaylist").style.display = "none";
 }
 
 function band() {
@@ -16,6 +17,7 @@ function band() {
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "none";
+  document.getElementById("undertalePlaylist").style.display = "none";
 }
 
 function pokemon() {
@@ -26,6 +28,7 @@ function pokemon() {
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "none";
+  document.getElementById("undertalePlaylist").style.display = "none";
 }
 
 function marioLuigi() {
@@ -36,6 +39,7 @@ function marioLuigi() {
   document.getElementById("marioLuigiPlaylist").style.display = "block";
   document.getElementById("fridayNightPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "none";
+  document.getElementById("undertalePlaylist").style.display = "none";
 }
 
 function fridayNight() {
@@ -46,6 +50,7 @@ function fridayNight() {
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "block";
   document.getElementById("personalPlaylist").style.display = "none";
+  document.getElementById("undertalePlaylist").style.display = "none";
 }
 
 function personal() {
@@ -56,4 +61,16 @@ function personal() {
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "block";
+  document.getElementById("undertalePlaylist").style.display = "none";
+}
+
+function undertale() {
+  document.getElementById("title").innerHTML = "Personal Playlist";
+  document.getElementById("homepage").style.display = "none";
+  document.getElementById("bandPlaylist").style.display = "none";
+  document.getElementById("pokemonPlaylist").style.display = "none";
+  document.getElementById("marioLuigiPlaylist").style.display = "none";
+  document.getElementById("fridayNightPlaylist").style.display = "none";
+  document.getElementById("personalPlaylist").style.display = "none";
+  document.getElementById("undertalePlaylist").style.display = "block";
 }
