@@ -1,4 +1,3 @@
-
 function home() {
   document.getElementById("title").innerHTML = "Home";
   document.getElementById("homepage").style.display = "block";
@@ -76,10 +75,4 @@ function undertale() {
   document.getElementById("undertalePlaylist").style.display = "block";
 }
 
-document.getElementById("title").innerHTML = "Home";
-document.getElementById("homepage").style.display = "block";
-document.getElementById("bandPlaylist").style.display = "none";
-document.getElementById("pokemonPlaylist").style.display = "none";
-document.getElementById("marioLuigiPlaylist").style.display = "none";
-document.getElementById("fridayNightPlaylist").style.display = "none";
-document.getElementById("personalPlaylist").style.display = "none";
+home();
