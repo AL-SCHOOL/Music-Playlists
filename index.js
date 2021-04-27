@@ -65,7 +65,7 @@ function personal() {
 }
 
 function undertale() {
-  document.getElementById("title").innerHTML = "Personal Playlist";
+  document.getElementById("title").innerHTML = "Undertale Playlist";
   document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "none";
