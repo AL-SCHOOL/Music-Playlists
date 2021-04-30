@@ -5,4 +5,4 @@ Now that I created this website I can access music by just clicking 2 buttons, t
 Oh yeah, and I almost forgot, the music dosen't have any ads! 
 
 # Coding
-I also added a .zip file which consistes of an open source version of this website.
+I added a .zip file which consistes of an open source version of this website.
