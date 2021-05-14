@@ -6,7 +6,7 @@ hr {border-style: solid; border-color: #ffffff; margin-bottom: -5px; margin-left
 footer {background-color: #333333; text-align: center; padding: 5px;}
 
 /* Media */
-iframe {border-style: solid; border-color: #ffffff; border-width: 2px; border-radius: 5px; width: 640px; height: 360px;}
+iframe {border-style: solid; border-color: #ffffff; border-width: 2px; border-radius: 5px; width: 640px; height: 360px; margin-bottom: 5px;}
 
 /* Buttons */
 #navButton {margin-left: 5px; border-style: solid; border-color: #ffffff; border-width: 2px; border-radius: 5px; background-color: #ffffff; width: 100px; height: 100px;}
