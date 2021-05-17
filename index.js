@@ -48,6 +48,7 @@ function marioLuigi() {
 
 function fridayNight() {
   document.getElementById("title").innerHTML = "Friday Night Funkin' Playlist";
+  document.getElementById("body").style.height = "1000px;";
   document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "none";
