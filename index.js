@@ -1,6 +1,6 @@
 function home() {
   document.getElementById("title").innerHTML = "Home";
-  document.getElementById("content").style.height = "500px;";
+  document.getElementById("content").style.height = "500px";
   document.getElementById("homepage").style.display = "block";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "none";
@@ -13,7 +13,7 @@ function home() {
 
 function band() {
   document.getElementById("title").innerHTML = "Band Playlist";
-  document.getElementById("content").style.height = "500px;";
+  document.getElementById("content").style.height = "500px";
   document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "block";
   document.getElementById("pokemonPlaylist").style.display = "none";
@@ -26,7 +26,7 @@ function band() {
 
 function pokemon() {
   document.getElementById("title").innerHTML = "Pokémon Playlist";
-  document.getElementById("content").style.height = "500px;";
+  document.getElementById("content").style.height = "500px";
   document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "block";
@@ -39,7 +39,7 @@ function pokemon() {
 
 function marioLuigi() {
   document.getElementById("title").innerHTML = "Mario & Luigi Playlist";
-  document.getElementById("content").style.height = "500px;";
+  document.getElementById("content").style.height = "500px";
   document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "none";
@@ -52,7 +52,7 @@ function marioLuigi() {
 
 function fridayNight() {
   document.getElementById("title").innerHTML = "Friday Night Funkin' Playlist";
-  document.getElementById("content").style.height = "auto;";
+  document.getElementById("content").style.height = "auto";
   document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "none";
@@ -65,7 +65,7 @@ function fridayNight() {
 
 function personal() {
   document.getElementById("title").innerHTML = "Personal Playlist";
-  document.getElementById("content").style.height = "500px;";
+  document.getElementById("content").style.height = "500px";
   document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "none";
@@ -78,7 +78,7 @@ function personal() {
 
 function undertale() {
   document.getElementById("title").innerHTML = "Undertale Playlist";
-  document.getElementById("content").style.height = "500px;";
+  document.getElementById("content").style.height = "500px";
   document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "none";
