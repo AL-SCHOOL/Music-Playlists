@@ -1,6 +1,6 @@
 function home() {
   document.getElementById("title").innerHTML = "Home";
-  document.getElementById("content").style.height = "500px";
+  document.getElementById("content").style.height = "445px";
   document.getElementById("homepage").style.display = "block";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "none";
