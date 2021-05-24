@@ -6,10 +6,10 @@ function home() {
   document.getElementById("pokemonPlaylist").style.display = "none";
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "none";
-  document.getElementById("fridayNightModPlaylist").style.display = "none"
+  document.getElementById("fridayNightModPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "none";
   document.getElementById("undertalePlaylist").style.display = "none";
-  document.getElementById("undertaleModPlaylist").style.display = "none"
+  document.getElementById("undertaleModPlaylist").style.display = "none";
 }
 
 function band() {
@@ -20,10 +20,10 @@ function band() {
   document.getElementById("pokemonPlaylist").style.display = "none";
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "none";
-  document.getElementById("fridayNightModPlaylist").style.display = "none"
+  document.getElementById("fridayNightModPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "none";
   document.getElementById("undertalePlaylist").style.display = "none";
-  document.getElementById("undertaleModPlaylist").style.display = "none"
+  document.getElementById("undertaleModPlaylist").style.display = "none";
 }
 
 function pokemon() {
@@ -34,10 +34,10 @@ function pokemon() {
   document.getElementById("pokemonPlaylist").style.display = "block";
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "none";
-  document.getElementById("fridayNightModPlaylist").style.display = "none"
+  document.getElementById("fridayNightModPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "none";
   document.getElementById("undertalePlaylist").style.display = "none";
-  document.getElementById("undertaleModPlaylist").style.display = "none"
+  document.getElementById("undertaleModPlaylist").style.display = "none";
 }
 
 function marioLuigi() {
@@ -48,10 +48,10 @@ function marioLuigi() {
   document.getElementById("pokemonPlaylist").style.display = "none";
   document.getElementById("marioLuigiPlaylist").style.display = "block";
   document.getElementById("fridayNightPlaylist").style.display = "none";
-  document.getElementById("fridayNightModPlaylist").style.display = "none"
+  document.getElementById("fridayNightModPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "none";
   document.getElementById("undertalePlaylist").style.display = "none";
-  document.getElementById("undertaleModPlaylist").style.display = "none"
+  document.getElementById("undertaleModPlaylist").style.display = "none";
 }
 
 function fridayNight() {
@@ -62,10 +62,10 @@ function fridayNight() {
   document.getElementById("pokemonPlaylist").style.display = "none";
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "block";
-  document.getElementById("fridayNightModPlaylist").style.display = "block"
+  document.getElementById("fridayNightModPlaylist").style.display = "block";
   document.getElementById("personalPlaylist").style.display = "none";
   document.getElementById("undertalePlaylist").style.display = "none";
-  document.getElementById("undertaleModPlaylist").style.display = "none"
+  document.getElementById("undertaleModPlaylist").style.display = "none";
 }
 
 function personal() {
@@ -76,10 +76,10 @@ function personal() {
   document.getElementById("pokemonPlaylist").style.display = "none";
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "none";
-  document.getElementById("fridayNightModPlaylist").style.display = "none"
+  document.getElementById("fridayNightModPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "block";
   document.getElementById("undertalePlaylist").style.display = "none";
-  document.getElementById("undertaleModPlaylist").style.display = "none"
+  document.getElementById("undertaleModPlaylist").style.display = "none";
 }
 
 function undertale() {
@@ -90,10 +90,10 @@ function undertale() {
   document.getElementById("pokemonPlaylist").style.display = "none";
   document.getElementById("marioLuigiPlaylist").style.display = "none";
   document.getElementById("fridayNightPlaylist").style.display = "none";
-  document.getElementById("fridayNightModPlaylist").style.display = "none"
+  document.getElementById("fridayNightModPlaylist").style.display = "none";
   document.getElementById("personalPlaylist").style.display = "none";
   document.getElementById("undertalePlaylist").style.display = "block";
-  document.getElementById("undertaleModPlaylist").style.display = "block"
+  document.getElementById("undertaleModPlaylist").style.display = "block";
 }
 
 // Starts Code
