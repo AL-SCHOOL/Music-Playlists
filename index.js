@@ -55,7 +55,7 @@ function marioLuigi() {
 }
 
 function fridayNight() {
-  document.getElementById("title").innerHTML = "Friday Night Funkin' Playlist";
+  document.getElementById("title").innerHTML = "Friday Night Funkin' Playlists";
   document.getElementById("content").style.height = "auto";
   document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "none";
@@ -83,8 +83,8 @@ function personal() {
 }
 
 function undertale() {
-  document.getElementById("title").innerHTML = "Undertale Playlist";
-  document.getElementById("content").style.height = "500px";
+  document.getElementById("title").innerHTML = "Undertale Playlists";
+  document.getElementById("content").style.height = "auto";
   document.getElementById("homepage").style.display = "none";
   document.getElementById("bandPlaylist").style.display = "none";
   document.getElementById("pokemonPlaylist").style.display = "none";
