@@ -96,4 +96,5 @@ function undertale() {
   document.getElementById("undertaleModPlaylist").style.display = "block"
 }
 
+// Starts Code
 home();
