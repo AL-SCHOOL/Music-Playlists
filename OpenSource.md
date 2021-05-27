@@ -4,7 +4,7 @@ This file contains instructions on how to create your own Music Playlists Websit
 # Instructions
 
 **Step 1:** Download and Upload Files
-- Download the code by clicking the "Code" Button and then press "Download ZIP"
+- Download the code (Code -> Download ZIP)
 - Uncompress the .zip file into a folder
 - Upload the code either onto GitHub or on to an IDE
 
@@ -34,8 +34,19 @@ This file contains instructions on how to create your own Music Playlists Websit
 - Open the file that is named "index.js"
 - Rename the functions that you swithed
 - Rename the IDs that you switched
+- Rename the titles for each playlist
+- Save the changes that you made to the file.
 
 **Step 6:** Add Custom Icons
 - Open the folder named "Photos"
+- Delete all of the files exept for "IMG_0092.PNG" and "icon.ico"
+- Create images that correspond with each playlist (Should be have a 1:1 ratio in size)
+- Upload the images into the folder
+- Save changes made to the folder.
+- Go back into the file named "index.html"
+- Change URLs for each of the images.
+- Save changes made to the file.
 
 **Step 7:** Publish
+- On GitHub create a GitHub Page (Settings -> Pages -> Branch -> Main -> Save), on an IDE, launch the file "index.html"
+- Enjoy!
