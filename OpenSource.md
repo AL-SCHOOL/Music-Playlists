@@ -48,5 +48,5 @@ This file contains instructions on how to create your own Music Playlists Websit
 - Save changes made to the file.
 
 **Step 7:** Publish
-- On GitHub create a GitHub Page (Settings -> Pages -> Branch -> Main -> Save), on an IDE, launch the file "index.html"
+- On GitHub create a GitHub Page (Settings -> Pages -> Branch -> Main -> Save), on an IDE launch the file "index.html"
 - Enjoy!
